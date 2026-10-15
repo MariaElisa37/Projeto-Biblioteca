@@ -1,10 +1,10 @@
-using SisBib.Data;
-using SisBib.Models;
+using ProjetoBiblioteca.Data;
+using ProjetoBiblioteca.Models;
 
-namespace SisBib.Negocio
+namespace ProjetoBiblioteca.Negocio
 {
     // A BLL contém as REGRAS DE NEGÓCIO e validações
-    public class LivroService
+    public class LivroServico
     {
         private LivroRepositorio _repository = new LivroRepositorio();
 

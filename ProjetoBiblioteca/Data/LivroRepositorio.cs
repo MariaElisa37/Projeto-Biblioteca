@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using SisBib.Models;
+using ProjetoBiblioteca.Models;
 
-namespace SisBib.Data
+namespace ProjetoBiblioteca.Data
 {
     // A DAL APENAS armazena e recupera dados.
     // Não faz validações nem imprime texto.
-    public class LivroRepository
+    public class LivroRepositorio
     {
         private static List<Livro> _tabelaLivros = new List<Livro>();
 
